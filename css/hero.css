@@ -1,0 +1,56 @@
+.hero{
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10x;
+    align-items: center;
+
+}
+
+.hero .text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.hero .text, h1{
+    font-size: 75px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hero .text h1, span {
+    font-size: 60px;
+    display: block;
+    text-align: left;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.hero .text h2{
+    font-size: 25px;
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .hero .hero-contacto{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    @media screen and (min-width:100px) {
+        .hero{
+            flex-direction: row;
+          }
+        .hero .foto{
+            order: 1;
+             margin-left: 300px;
+        }
+    }
